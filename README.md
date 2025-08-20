@@ -1,5 +1,4 @@
-# Criando um arquivo README.md com o conteúdo gerado
-readme_content = """# 📊 Projeto Ciência de Dados - Previsão de Vendas  
+# 📊 Projeto Ciência de Dados - Previsão de Vendas  
 
 ## 🎯 Objetivo do Projeto  
 O desafio é prever as vendas que a empresa **Hashtag** terá em determinado período com base nos gastos em anúncios nas 3 grandes redes:  
@@ -50,15 +49,3 @@ A previsão será feita utilizando técnicas de **Ciência de Dados** e **Machin
 - Gerar insights para apoiar decisões estratégicas de investimento em mídia.  
 
 ---
-
-## 👩‍💻 Autora  
-
-Projeto desenvolvido por **Giulia Vargas** ✨  
-"""
-
-# Salvando em arquivo README.md
-file_path = "/mnt/data/README.md"
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-file_path
